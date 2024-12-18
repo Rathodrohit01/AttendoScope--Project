@@ -7,9 +7,20 @@ public class AttendanceRecordRequest {
 	private Long subjectId;
 	private String date;
 	private String time;
-    private int numberOfStudents;;
+    private int numberOfStudents;
 
 	private List<Long> studentIds;
+
+	public AttendanceRecordRequest(String username, Long subjectId, String date, String time, int numberOfStudents,
+			List<Long> studentIds) {
+		super();
+		this.username = username;
+		this.subjectId = subjectId;
+		this.date = date;
+		this.time = time;
+		this.numberOfStudents = numberOfStudents;
+		this.studentIds = studentIds;
+	}
 
 	public AttendanceRecordRequest() {
 		// TODO Auto-generated constructor stub

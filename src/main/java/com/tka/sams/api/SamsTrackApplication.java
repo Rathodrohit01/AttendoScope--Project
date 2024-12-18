@@ -8,6 +8,10 @@ public class SamsTrackApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SamsTrackApplication.class, args);
+		
+		
+		System.out.println("web stared ");
+	
 	}
 
 }
